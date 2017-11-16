@@ -27,3 +27,5 @@ include vendor/yu/tomato/BoardConfigVendor.mk
 WITH_DEXPREOPT := false
 DONT_DEXPREOPT_PREBUILTS := true
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
+
+TARGET_FS_CONFIG_GEN += device/yu/tomato/fs_config/qcom_aids.fs
