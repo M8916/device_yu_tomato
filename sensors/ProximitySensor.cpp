@@ -29,11 +29,11 @@
 #include "ProximitySensor.h"
 #include "sensors.h"
 
-#define PROXIMITY_SYS_PATH      ""
-#define PROXIMITY_SEN_NAME      ""
-#define PROXIMITY_ENABLE        ""
-#define ALSPROX_DEV_NAME     ""
-#define EVENT_TYPE_PROXIMITY  EV_MSC
+#define PROXIMITY_SYS_PATH      "/sys/devices/soc.0/78b6000.i2c/i2c-0/0-001e/"
+#define PROXIMITY_SEN_NAME      "PA12200001_proximity"
+#define PROXIMITY_ENABLE        "enable_ps_sensor"
+#define ALSPROX_DEV_NAME     "/dev/yl_alsprox_sensor"
+#define EVENT_TYPE_PROXIMITY    EV_MSC
 
 /*****************************************************************************/
 ProximitySensor::ProximitySensor()
